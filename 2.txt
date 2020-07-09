@@ -1,0 +1,26 @@
+TextBlob
+etiketleme
+Selenium crawler data toplama
+C:\\Users\\Onur Kantar\\Desktop\\Staj\\chromedriver.exe
+
+https://www.toptal.com/python/twitter-data-mining-using-python
+https://towardsdatascience.com/extracting-twitter-data-pre-processing-and-sentiment-analysis-using-python-3-0-7192bd8b47cf
+https://monkeylearn.com/blog/sentiment-analysis-of-twitter/
+https://vimeo.com/170157685
+https://discovertext.com/tutorials/
+http://adilmoujahid.com/posts/2014/07/twitter-analytics/
+https://ogunal.com/python-ile-twitterdan-veri-cekme/
+https://smartproxy.com/blog/scrapy-vs-beautifulsoup
+https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c
+https://github.com/Zeeshanahmad4/Tweets-Scraper-twitter-Selenium
+https://www.youtube.com/watch?v=zucvHSQsKHA
+
+https://medium.com/@elifarslan099/python-ile-i̇nternetten-veri-çekmek-85e54e6c25a1
+https://medium.com/kaveai/web-scraping-453e96a86195
+
+
+https://www.google.com/search?client=opera&q=BokehJS+&sourceid=opera&ie=UTF-8&oe=UTF-8
+
+https://medium.com/@arzuyldz_26994/scrapy-ile-web-scraping-web-kazıma-nasıl-yapılır-%EF%B8%8F-841cf7645c10
+
+https://github.com/oguzerdal/Selenium-Projeleri/blob/master/Selenium%20ve%20Twitter/getAllTweets.py
