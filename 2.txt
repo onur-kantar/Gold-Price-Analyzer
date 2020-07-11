@@ -24,3 +24,6 @@ https://www.google.com/search?client=opera&q=BokehJS+&sourceid=opera&ie=UTF-8&oe
 https://medium.com/@arzuyldz_26994/scrapy-ile-web-scraping-web-kazıma-nasıl-yapılır-%EF%B8%8F-841cf7645c10
 
 https://github.com/oguzerdal/Selenium-Projeleri/blob/master/Selenium%20ve%20Twitter/getAllTweets.py
+
+https://www.youtube.com/watch?v=eFdPGpny_hY
+http://myweb.sabanciuniv.edu/alper/regular-expression-duzenli-ifadeler/

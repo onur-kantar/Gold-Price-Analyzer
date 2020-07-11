@@ -1,23 +1,53 @@
 import pandas as pd                     
-import Preprocessing
+import Preprocessing as pre
 import ScrapeTweets as st
 import os
 import CsvMerger as cm
+import SentimentAnalysis as sa
+import numpy as numpy
+import WriteToCSV as wcsv
 
+# Veri Kazıma ------------------------------------ birçok linkten çek
 twitterURL = 'https://twitter.com/search?f=live&q=(%23XAUUSD)%20lang%3Aen%20-filter%3Areplies&src=typed_query'
-pageSize = 2000
-csvPath = os.getcwd()+"\\data.csv"
-filePath = os.getcwd()
-st.scrape(twitterURL, pageSize, csvPath)
+minTweetSize = 30000
+tweets = st.scrape(twitterURL, minTweetSize)
+#-------------------------------------------------
 
-"""
-cm.merge(filePath)
+# .csv Dosyasına Yazdırma İşlemi -----------------
+dataSetPath = r'C:\Users\onur\Documents\GitHub\Gold-Analysis\Data Set'
+dict_val = {
+        'tweet' : tweets
+    }
+wcsv.writeRow('gold_tweets.csv', dict_val, dataSetPath)
+#-------------------------------------------------
 
-df = pd.read_csv('merged.csv', encoding = 'UTF-8', sep=',')
+# .csv Dosyalarını Birleştirme İşlemi ------------
+filePath = r'C:\Users\onur\Documents\GitHub\Gold-Analysis\Data Set'
+cm.merge(filePath, 'gold_all.csv')
+#-------------------------------------------------
 
-x = df.iloc[:,0]
+# Veriyi Çekip Yazdırma İşlemi -------------------
+df = pd.read_csv('gold_all.csv', encoding = 'UTF-8', delimiter=',')
+x = df['tweet']
+print(df)
+#-------------------------------------------------
 
-x = Preprocessing.series(x)
+# Temizleme İşlemi -------------------------------
+x = pre.clean(x, 'low')
+#-------------------------------------------------
 
-print(pd.DataFrame(x))"""
+# Etiketleme İşlemi ------------------------------
+classes = []
+classes = x.apply(sa.analysis)
+#-------------------------------------------------
 
+# .csv Dosyasına Yazdırma İşlemi -----------------
+dict_val = {
+        'tweet' : x,
+        'class' : classes
+    }
+wcsv.writeRow('gold_price.csv', dict_val)
+#-------------------------------------------------
+
+df = pd.read_csv('gold_price.csv', encoding = 'UTF-8', delimiter=',')
+print(df)
