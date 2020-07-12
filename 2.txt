@@ -27,3 +27,8 @@ https://github.com/oguzerdal/Selenium-Projeleri/blob/master/Selenium%20ve%20Twit
 
 https://www.youtube.com/watch?v=eFdPGpny_hY
 http://myweb.sabanciuniv.edu/alper/regular-expression-duzenli-ifadeler/
+
+https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
+
+https://qastack.info.tr/datascience/19802/best-practices-to-store-python-machine-learning-models
+https://www.youtube.com/watch?v=mrExsjcvF4o
