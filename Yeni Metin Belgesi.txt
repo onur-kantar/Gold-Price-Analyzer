@@ -1,5 +1,0 @@
-from selenium import webdriver
-
-path = 'C:\\Users\\Onur Kantar\\Desktop\\Staj\\chromedriver.exe'
-C:\\Users\\Onur Kantar\\Documents\\GitHub\\Gold Analysis\\Gold-Analysis\\chromedriver.exe
-browser = webdriver.Chrome(path)

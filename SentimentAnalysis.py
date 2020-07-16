@@ -4,9 +4,10 @@ def analysis (texts):
     blob = TextBlob(texts)
     
     if blob.sentiment.polarity > 0: # Olumlu
-        return 1    
-    if blob.sentiment.polarity < 0: # Olumsuz
-        return 2    
-    else:                           # Nötr
+        print(blob.sentiment)
         return 0
+    else:                           # Olumsuz
+        print(blob.sentiment)
+        return 1    
+
     

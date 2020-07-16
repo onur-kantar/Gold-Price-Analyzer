@@ -1,7 +1,15 @@
+Analyzer
+slack gir
+open in colab
+
 TextBlob
 etiketleme
 Selenium crawler data toplama
 C:\\Users\\Onur Kantar\\Desktop\\Staj\\chromedriver.exe
+
+“If you torture the data long enough, it will confess.” -Ronald H. Coase
+
+-f1 falan nedir bi bak bakalım
 
 https://www.toptal.com/python/twitter-data-mining-using-python
 https://towardsdatascience.com/extracting-twitter-data-pre-processing-and-sentiment-analysis-using-python-3-0-7192bd8b47cf
@@ -29,6 +37,11 @@ https://www.youtube.com/watch?v=eFdPGpny_hY
 http://myweb.sabanciuniv.edu/alper/regular-expression-duzenli-ifadeler/
 
 https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets
+https://medium.com/@g.canguven11/dengesi%CC%87z-veri%CC%87-k%C3%BCmeleri%CC%87-i%CC%87le-maki%CC%87ne-%C3%B6%C4%9Frenmesi%CC%87-63bbac5f6869
+https://medium.com/novaresearchlab/veri-art%C4%B1r%C4%B1m%C4%B1-data-augmentation-fcc839da556b
+https://amitness.com/2020/05/data-augmentation-for-nlp/
+https://github.com/makcedward/nlpaug
 
 https://qastack.info.tr/datascience/19802/best-practices-to-store-python-machine-learning-models
 https://www.youtube.com/watch?v=mrExsjcvF4o
+https://www.deploymachinelearning.com
