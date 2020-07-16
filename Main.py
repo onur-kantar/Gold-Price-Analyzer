@@ -55,6 +55,7 @@ print(df)
 
 x = df['tweet']
 y = df['target']
+
 import seaborn as sns
 sns.countplot(y)
 # Sampling ----------------------------------------
@@ -80,13 +81,12 @@ df_over = pd.concat([df_class_0_over, df_class_1], axis=0)
 
 df_over.target.value_counts().plot(kind='bar', title='Count (target)');
 
-#-------------------------------------------------
+# Augmenter  
 
 newdf = aug.augments(x, y)
 wcsv.writeRow('augment_gold_price.csv', dict_val)
 
-print(newdf)
-
+#-------------------------------------------------
 
 
 

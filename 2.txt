@@ -41,6 +41,7 @@ https://medium.com/@g.canguven11/dengesi%CC%87z-veri%CC%87-k%C3%BCmeleri%CC%87-i
 https://medium.com/novaresearchlab/veri-art%C4%B1r%C4%B1m%C4%B1-data-augmentation-fcc839da556b
 https://amitness.com/2020/05/data-augmentation-for-nlp/
 https://github.com/makcedward/nlpaug
+https://towardsdatascience.com/sampling-techniques-for-extremely-imbalanced-data-part-i-under-sampling-a8dbc3d8d6d8
 
 https://qastack.info.tr/datascience/19802/best-practices-to-store-python-machine-learning-models
 https://www.youtube.com/watch?v=mrExsjcvF4o
