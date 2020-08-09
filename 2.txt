@@ -1,7 +1,7 @@
 Analyzer
 slack gir
 open in colab
-
+WEBDRİVEWAİT ÇOK ÖNEMLİ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 TextBlob
 etiketleme
 Selenium crawler data toplama
@@ -46,3 +46,16 @@ https://towardsdatascience.com/sampling-techniques-for-extremely-imbalanced-data
 https://qastack.info.tr/datascience/19802/best-practices-to-store-python-machine-learning-models
 https://www.youtube.com/watch?v=mrExsjcvF4o
 https://www.deploymachinelearning.com
+
+
+
+
+
+https://thepythonguru.com/python-how-to-read-and-write-csv-files/
+https://medium.com/bili%C5%9Fim-hareketi/web-crawler-spider-ve-scrapy-4c32bcf57c08
+
+https://stackoverflow.com/questions/45587378/how-to-get-predicted-values-in-keras
+https://towardsdatascience.com/scraping-interactive-charts-with-python-2bc20a9c7f5c
+veri çekilen yerler
+https://www.bullionbypost.co.uk/gold-price/year/ounces/USD/
+https://towardsdatascience.com/best-5-free-stock-market-apis-in-2019-ad91dddec984

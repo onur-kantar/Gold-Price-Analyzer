@@ -21,7 +21,6 @@ dict_val = {
 wcsv.writeRow('gold_tweets.csv', dict_val, dataSetPath)
 #-------------------------------------------------
 
-
 # .csv Dosyalarını Birleştirme İşlemi ------------
 filePath = r'C:\Users\onur\Documents\GitHub\Gold-Analysis\Data Set'
 cm.merge(filePath, 'gold_all.csv')
